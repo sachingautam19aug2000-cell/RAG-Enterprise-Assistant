@@ -1,40 +1,53 @@
+
+import os
+import re
+import json
+import chromadb
+from sentence_transformers import SentenceTransformer
+from google import genai
+
+
+CHUNK_SIZE = 1200
+CHUNK_OVERLAP = 200
+
+
+
 import os
 import re
 import json
 
 import chromadb
 from sentence_transformers import SentenceTransformer
+from google import genai
 
 
 # ============================================================
-# 1. PROJECT PATHS
+# PROJECT SETTINGS
 # ============================================================
 
-project_path = os.path.dirname(os.path.abspath(__file__))
+PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
 
-data_path = os.path.join(project_path, "Data")
+DATA_PATH = os.path.join(
+    PROJECT_PATH,
+    "Data"
+)
 
-processed_path = os.path.join(
-    project_path,
+PROCESSED_FILE = os.path.join(
+    PROJECT_PATH,
     "processed_chunks.json"
 )
 
-vector_db_path = os.path.join(
-    project_path,
+VECTOR_DB_PATH = os.path.join(
+    PROJECT_PATH,
     "vector_database"
 )
-
-
-# ============================================================
-# 2. SETTINGS
-# ============================================================
 
 CHUNK_SIZE = 1200
 CHUNK_OVERLAP = 200
 
 
 # ============================================================
-# 3. CLEAN TEXT
+# CLEAN TEXT
 # ============================================================
 
 def clean_text(text):
@@ -57,7 +70,7 @@ def clean_text(text):
 
 
 # ============================================================
-# 4. CREATE CHUNKS
+# CREATE CHUNKS
 # ============================================================
 
 def create_chunks(text):
@@ -81,43 +94,42 @@ def create_chunks(text):
 
 
 # ============================================================
-# 5. READ ALL MARKDOWN DOCUMENTS
+# STEP 1 - FIND DOCUMENTS
 # ============================================================
 
 print("=" * 60)
-print("STEP 1 - READING DOCUMENTS")
+print("RAG ENTERPRISE KNOWLEDGE ASSISTANT")
 print("=" * 60)
+
+print("\nSTEP 1 - FINDING DOCUMENTS")
 
 md_files = []
 
-for root, folders, files in os.walk(data_path):
+for root, folders, files in os.walk(DATA_PATH):
 
     for file in files:
 
         if file.lower().endswith(".md"):
 
-            full_path = os.path.join(
-                root,
-                file
+            md_files.append(
+                os.path.join(root, file)
             )
 
-            md_files.append(full_path)
-
-
-print("Markdown documents found:", len(md_files))
+print(
+    "Markdown documents found:",
+    len(md_files)
+)
 
 
 # ============================================================
-# 6. CLEAN + CHUNK ALL DOCUMENTS
+# STEP 2 - CLEAN + CHUNK
 # ============================================================
 
-print("\n" + "=" * 60)
-print("STEP 2 - CLEANING AND CHUNKING")
-print("=" * 60)
+print("\nSTEP 2 - CLEANING AND CHUNKING")
 
 all_chunks = []
 
-for document_number, file_path in enumerate(
+for number, file_path in enumerate(
     md_files,
     start=1
 ):
@@ -130,19 +142,14 @@ for document_number, file_path in enumerate(
 
         text = f.read()
 
+    cleaned = clean_text(text)
 
-    cleaned_text = clean_text(text)
+    chunks = create_chunks(cleaned)
 
-    chunks = create_chunks(
-        cleaned_text
-    )
-
-
-    source_name = os.path.relpath(
+    source = os.path.relpath(
         file_path,
-        data_path
+        DATA_PATH
     )
-
 
     for chunk_number, chunk in enumerate(
         chunks,
@@ -152,10 +159,10 @@ for document_number, file_path in enumerate(
         all_chunks.append({
 
             "chunk_id":
-                f"{document_number}_{chunk_number}",
+                f"{number}_{chunk_number}",
 
             "source":
-                source_name,
+                source,
 
             "chunk_number":
                 chunk_number,
@@ -164,18 +171,23 @@ for document_number, file_path in enumerate(
                 chunk
         })
 
-
     print(
-        f"Processed {document_number}/{len(md_files)}"
+        f"Processed {number}/{len(md_files)}"
     )
 
 
+print(
+    "\nTotal chunks:",
+    len(all_chunks)
+)
+
+
 # ============================================================
-# 7. SAVE PROCESSED CHUNKS
+# STEP 3 - SAVE CHUNKS
 # ============================================================
 
 with open(
-    processed_path,
+    PROCESSED_FILE,
     "w",
     encoding="utf-8"
 ) as f:
@@ -186,17 +198,17 @@ with open(
         ensure_ascii=False
     )
 
-
-print("\nTotal chunks created:", len(all_chunks))
+print(
+    "Chunks saved to:",
+    PROCESSED_FILE
+)
 
 
 # ============================================================
-# 8. LOAD EMBEDDING MODEL
+# STEP 4 - LOAD EMBEDDING MODEL
 # ============================================================
 
-print("\n" + "=" * 60)
-print("STEP 3 - LOADING EMBEDDING MODEL")
-print("=" * 60)
+print("\nSTEP 3 - LOADING EMBEDDING MODEL")
 
 embedding_model = SentenceTransformer(
     "all-MiniLM-L6-v2"
@@ -206,27 +218,27 @@ print("Embedding model loaded.")
 
 
 # ============================================================
-# 9. CREATE VECTOR DATABASE
+# STEP 5 - CREATE CHROMADB
 # ============================================================
 
-print("\n" + "=" * 60)
-print("STEP 4 - CREATING VECTOR DATABASE")
-print("=" * 60)
+print("\nSTEP 4 - CREATING VECTOR DATABASE")
 
 client = chromadb.PersistentClient(
-    path=vector_db_path
+    path=VECTOR_DB_PATH
 )
 
 collection = client.get_or_create_collection(
     name="enterprise_documents"
 )
 
+print("Vector database ready.")
+
 
 # ============================================================
-# 10. ADD EMBEDDINGS
+# STEP 6 - STORE EMBEDDINGS
 # ============================================================
 
-print("\nCreating embeddings...")
+print("\nSTEP 5 - CREATING EMBEDDINGS")
 
 batch_size = 100
 
@@ -250,25 +262,20 @@ for start in range(
         for item in batch
     ]
 
-    metadatas = [
+    metadata = [
 
         {
-            "source":
-                item["source"],
-
-            "chunk_number":
-                item["chunk_number"]
+            "source": item["source"],
+            "chunk_number": item["chunk_number"]
         }
 
         for item in batch
     ]
 
-
     embeddings = embedding_model.encode(
         texts,
         show_progress_bar=False
     ).tolist()
-
 
     collection.upsert(
 
@@ -278,46 +285,66 @@ for start in range(
 
         embeddings=embeddings,
 
-        metadatas=metadatas
+        metadatas=metadata
     )
-
 
     print(
         f"Stored {min(start + batch_size, len(all_chunks))}"
-        f"/{len(all_chunks)} chunks"
+        f"/{len(all_chunks)}"
     )
 
 
-print("\nVector database ready.")
-
 print(
-    "Total vectors:",
+    "\nTotal vectors:",
     collection.count()
 )
 
 
 # ============================================================
-# 11. RAG RETRIEVAL TEST
+# STEP 7 - GEMINI CONNECTION
+# ============================================================
+
+print("\nSTEP 6 - CONNECTING GEMINI")
+
+try:
+
+    gemini_client = genai.Client()
+
+    print("Gemini connection successful.")
+
+except Exception as error:
+
+    print("Gemini connection failed.")
+    print(error)
+
+    raise SystemExit
+
+
+# ============================================================
+# STEP 8 - ASK QUESTION
 # ============================================================
 
 print("\n" + "=" * 60)
-print("STEP 5 - RAG RETRIEVAL TEST")
+print("RAG QUESTION ANSWERING")
 print("=" * 60)
-
 
 question = input(
     "\nEnter your question: "
 )
 
 
-# Convert question into embedding
+# ============================================================
+# STEP 9 - QUESTION EMBEDDING
+# ============================================================
 
 question_embedding = embedding_model.encode(
     [question]
 ).tolist()
 
 
-# Search relevant chunks
+# ============================================================
+# STEP 10 - RETRIEVE RELEVANT CHUNKS
+# ============================================================
 
 results = collection.query(
 
@@ -326,20 +353,28 @@ results = collection.query(
     n_results=5
 )
 
-
-# ============================================================
-# 12. DISPLAY RESULTS
-# ============================================================
-
-print("\n" + "-" * 60)
-print("TOP RELEVANT DOCUMENTS")
-print("-" * 60)
-
-
 documents = results["documents"][0]
 
 metadatas = results["metadatas"][0]
 
+
+print("\nRelevant sources found:")
+
+for i, metadata in enumerate(
+    metadatas,
+    start=1
+):
+
+    print(
+        f"{i}. {metadata['source']}"
+    )
+
+
+# ============================================================
+# STEP 11 - BUILD CONTEXT
+# ============================================================
+
+context_parts = []
 
 for i, (
     document,
@@ -349,29 +384,83 @@ for i, (
     start=1
 ):
 
-    print(f"\nRESULT {i}")
+    context_parts.append(
 
-    print(
-        "Source:",
-        metadata["source"]
-    )
-
-    print(
-        "Chunk:",
-        metadata["chunk_number"]
-    )
-
-    print("\nText:")
-
-    print(
-        document[:1000]
-    )
-
-    print(
-        "-" * 60
+        f"[SOURCE {i}]\n"
+        f"Document: {metadata['source']}\n"
+        f"Chunk: {metadata['chunk_number']}\n"
+        f"Content:\n{document}"
     )
 
 
-print("\nRAG retrieval completed.")
+context = "\n\n".join(
+    context_parts
+)
+
+
+# ============================================================
+# STEP 12 - GEMINI ANSWER
+# ============================================================
+
+prompt = f"""
+You are an enterprise knowledge assistant.
+
+Answer the user's question ONLY using the
+provided context.
+
+If the answer cannot be found in the context,
+say: "I could not find this information in the
+provided documents."
+
+Do not invent facts.
+
+Always mention the source document used.
+
+USER QUESTION:
+{question}
+
+CONTEXT:
+{context}
+"""
+
+
+print("\nGenerating answer...")
+
+
+interaction = gemini_client.interactions.create(
+
+    model="gemini-3.8-flash",
+
+    input=prompt
+)
+
+
+answer = interaction.output_text
+
+
+# ============================================================
+# STEP 13 - DISPLAY FINAL ANSWER
+# ============================================================
+
+print("\n" + "=" * 60)
+print("FINAL ANSWER")
+print("=" * 60)
+
+print(answer)
+
+print("\n" + "=" * 60)
+print("SOURCES")
+print("=" * 60)
+
+for i, metadata in enumerate(
+    metadatas,
+    start=1
+):
+
+    print(
+        f"{i}. {metadata['source']}"
+    )
+
+print("\nRAG PIPELINE COMPLETED.")
 
 print("=" * 60)
