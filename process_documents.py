@@ -464,3 +464,58 @@ for i, metadata in enumerate(
 print("\nRAG PIPELINE COMPLETED.")
 
 print("=" * 60)
+
+
+# ============================================================
+# STEP 13 - SAVE QUERY LOG
+# ============================================================
+
+from datetime import datetime
+
+LOG_FILE = os.path.join(
+    PROJECT_PATH,
+    "query_logs.json"
+)
+
+query_log = {
+    "timestamp": datetime.now().isoformat(),
+    "question": question,
+    "answer": answer,
+    "sources": [
+        metadata["source"]
+        for metadata in metadatas
+    ]
+}
+
+existing_logs = []
+
+if os.path.exists(LOG_FILE):
+
+    with open(
+        LOG_FILE,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        try:
+            existing_logs = json.load(f)
+
+        except json.JSONDecodeError:
+            existing_logs = []
+
+existing_logs.append(query_log)
+
+with open(
+    LOG_FILE,
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        existing_logs,
+        f,
+        indent=4,
+        ensure_ascii=False
+    )
+
+print("\nQuery log saved successfully.")
