@@ -16,6 +16,8 @@ try:
 except Exception as error:
     print("Connection failed:")
     print(error)
+
+
 import os
 import json
 import psycopg2
