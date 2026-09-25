@@ -519,3 +519,41 @@ with open(
     )
 
 print("\nQuery log saved successfully.")
+
+
+answer = interaction.output_text
+
+
+# SAVE QUERY TO SQLITE DATABASE
+
+import sqlite3
+
+db_path = os.path.join(
+    PROJECT_PATH,
+    "rag_assistant.db"
+)
+
+connection = sqlite3.connect(db_path)
+
+cursor = connection.cursor()
+
+cursor.execute(
+    """
+    INSERT INTO rag_query_logs
+    (timestamp, question, answer, sources)
+    VALUES (datetime('now'), ?, ?, ?)
+    """,
+    (
+        question,
+        answer,
+        ", ".join(
+            metadata["source"]
+            for metadata in metadatas
+        )
+    )
+)
+
+connection.commit()
+connection.close()
+
+print("Query saved to SQLite database.")
