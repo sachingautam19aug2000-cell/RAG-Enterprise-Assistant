@@ -1,0 +1,23 @@
+{
+  "name": "RAG Dark Navy",
+  "dataColors": ["#3B82F6","#8B5CF6","#14E0B4","#F59E0B","#EC4899","#9DB2D8","#22D3EE","#6366F1"],
+  "background": "#060D2B",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#3B82F6",
+  "good": "#22E29B",
+  "bad": "#F87171",
+  "neutral": "#F59E0B",
+  "textClasses": {
+    "label": {"fontFace": "Segoe UI", "fontSize": 10, "color": "#B4C2E0"},
+    "callout": {"fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#FFFFFF"},
+    "title": {"fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#FFFFFF"},
+    "header": {"fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#FFFFFF"}
+  },
+  "visualStyles": {
+    "*": {"*": {
+      "background": [{"color": {"solid": {"color": "#0B1538"}}, "transparency": 0}],
+      "border": [{"color": {"solid": {"color": "#1B2A5E"}}, "show": true, "radius": 12}],
+      "title": [{"fontColor": {"solid": {"color": "#FFFFFF"}}, "fontSize": 14}]
+    }}
+  }
+}

@@ -1,0 +1,349 @@
+query_id,query_time,query_type,question,answered,answer_preview
+1,2025-08-01 08:32:00,General Information,Who do I contact for Billing support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+2,2025-08-01 08:59:00,General Information,What is included in the Q3 2025 package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+3,2025-08-01 10:11:00,General Information,What is the onboarding process for Q4 2024?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+4,2025-08-01 11:25:00,Technical Details,What are the system requirements for Legal?,1,The cloud storage capacity at the end of the period was 245 TB.
+5,2025-08-01 11:27:00,General Information,Who do I contact for Q2 2024 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+6,2025-08-01 11:44:00,General Information,Who do I contact for Mobile support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+7,2025-08-01 11:50:00,General Information,What are the key features of the Finance plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+8,2025-08-01 14:37:00,Others,When was Q4 2023 last updated?,1,The document is maintained by the knowledge management team.
+9,2025-08-01 15:07:00,General Information,What is included in the Analytics package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+10,2025-08-01 16:04:00,Technical Details,What is the cloud storage capacity mentioned in Enterprise report?,1,The cloud storage capacity at the end of the period was 245 TB.
+11,2025-08-01 16:44:00,General Information,Who do I contact for Security support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+12,2025-08-01 16:46:00,Financial Data,What is the YoY growth for Security?,1,The total revenue for the period was $12.8 billion.
+13,2025-08-01 17:41:00,Financial Data,What is the total revenue for Operations?,1,The total revenue for the period was $12.8 billion.
+14,2025-08-02 08:01:00,Others,Is there a summary of HR?,1,The document is maintained by the knowledge management team.
+15,2025-08-02 08:24:00,Financial Data,What is the YoY growth for Basic?,1,The total revenue for the period was $12.8 billion.
+16,2025-08-02 09:35:00,General Information,What are the key features of the Regional plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+17,2025-08-02 09:41:00,Technical Details,How is Q1 2023 data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+18,2025-08-02 12:29:00,Others,Is there a summary of Cloud?,1,The document is maintained by the knowledge management team.
+19,2025-08-02 12:46:00,General Information,What are the key features of the Q3 2023 plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+20,2025-08-02 13:49:00,General Information,How do I get started with Q4 2023?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+21,2025-08-02 14:10:00,Compliance/Policy,What is the security audit cycle for 2025?,1,Refunds are available within 30 days of purchase.
+22,2025-08-02 15:02:00,Others,Is there a summary of Q3 2024?,1,The document is maintained by the knowledge management team.
+23,2025-08-02 16:15:00,General Information,What is included in the Support package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+24,2025-08-02 16:40:00,General Information,What are the key features of the Team plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+25,2025-08-02 16:45:00,Financial Data,What was the operating profit in Q2 2023?,1,The total revenue for the period was $12.8 billion.
+26,2025-08-02 17:08:00,General Information,What is included in the Legal package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+27,2025-08-02 17:41:00,Others,When was Team last updated?,0,No relevant answer found
+28,2025-08-03 10:08:00,General Information,What is included in the Starter package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+29,2025-08-03 10:16:00,General Information,Who do I contact for Support support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+30,2025-08-03 10:16:00,General Information,Who do I contact for Marketing support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+31,2025-08-03 10:44:00,Others,Where can I find the Enterprise document?,1,The document is maintained by the knowledge management team.
+32,2025-08-03 10:49:00,General Information,How do I get started with Operations?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+33,2025-08-03 11:31:00,General Information,What is the onboarding process for APAC?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+34,2025-08-03 12:16:00,General Information,What is included in the Q1 2023 package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+35,2025-08-03 12:23:00,Compliance/Policy,Is Q1 2023 GDPR compliant?,1,Refunds are available within 30 days of purchase.
+36,2025-08-03 12:36:00,General Information,How do I get started with Admin?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+37,2025-08-03 13:21:00,General Information,How do I get started with Marketing?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+38,2025-08-03 13:24:00,General Information,What is the onboarding process for 2021?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+39,2025-08-03 14:35:00,General Information,What are the key features of the Legal plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+40,2025-08-03 14:44:00,Technical Details,What are the system requirements for Partner?,1,The cloud storage capacity at the end of the period was 245 TB.
+41,2025-08-03 14:51:00,Others,Is there a summary of Q3 2024?,1,The document is maintained by the knowledge management team.
+42,2025-08-03 15:00:00,Financial Data,What is the total revenue for Q3 2025?,1,The total revenue for the period was $12.8 billion.
+43,2025-08-03 15:32:00,General Information,Who do I contact for APAC support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+44,2025-08-03 17:05:00,Others,Is there a summary of 2025?,1,The document is maintained by the knowledge management team.
+45,2025-08-03 17:17:00,General Information,What is included in the Premium package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+46,2025-08-06 10:35:00,General Information,Who do I contact for Q3 2023 support?,0,No relevant answer found
+47,2025-08-06 11:04:00,Financial Data,What was the operating profit in Mobile?,1,The total revenue for the period was $12.8 billion.
+48,2025-08-06 11:36:00,Compliance/Policy,What is the refund policy for Q3 2023?,1,Refunds are available within 30 days of purchase.
+49,2025-08-06 12:14:00,General Information,What is the onboarding process for Q3 2025?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+50,2025-08-06 16:27:00,General Information,What are the key features of the Q4 2023 plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+51,2025-08-06 17:12:00,Financial Data,What is the YoY growth for Partner?,1,The total revenue for the period was $12.8 billion.
+52,2025-08-06 17:34:00,Financial Data,What is the total revenue for Billing?,1,The total revenue for the period was $12.8 billion.
+53,2025-08-07 08:47:00,Others,Who owns the Q2 2024 document?,1,The document is maintained by the knowledge management team.
+54,2025-08-07 09:09:00,Compliance/Policy,What is the refund policy for Q3 2024?,1,Refunds are available within 30 days of purchase.
+55,2025-08-07 10:37:00,Compliance/Policy,What is the leave policy for Sales?,1,Refunds are available within 30 days of purchase.
+56,2025-08-07 11:05:00,Financial Data,How much was spent on R&D in Q4 2023?,1,The total revenue for the period was $12.8 billion.
+57,2025-08-07 11:54:00,Technical Details,What is the uptime SLA for Mobile?,1,The cloud storage capacity at the end of the period was 245 TB.
+58,2025-08-07 14:08:00,Financial Data,What is the YoY growth for 2024?,1,The total revenue for the period was $12.8 billion.
+59,2025-08-07 14:24:00,Technical Details,Which API version does Vendor use?,1,The cloud storage capacity at the end of the period was 245 TB.
+60,2025-08-07 14:43:00,Financial Data,What is the YoY growth for Analytics?,1,The total revenue for the period was $12.8 billion.
+61,2025-08-07 15:25:00,Financial Data,What is the YoY growth for Q2 2024?,1,The total revenue for the period was $12.8 billion.
+62,2025-08-07 16:04:00,General Information,Who do I contact for Legal support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+63,2025-08-07 17:08:00,Technical Details,Which API version does Vendor use?,1,The cloud storage capacity at the end of the period was 245 TB.
+64,2025-08-07 18:03:00,Technical Details,What are the system requirements for Premium?,1,The cloud storage capacity at the end of the period was 245 TB.
+65,2025-08-07 18:34:00,General Information,Who do I contact for Q1 2023 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+66,2025-08-07 18:59:00,Technical Details,What is the cloud storage capacity mentioned in India report?,1,The cloud storage capacity at the end of the period was 245 TB.
+67,2025-08-08 10:14:00,Financial Data,How much was spent on R&D in Cloud?,1,The total revenue for the period was $12.8 billion.
+68,2025-08-08 10:22:00,General Information,What is the onboarding process for Q2 2025?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+69,2025-08-08 12:05:00,Financial Data,How much was spent on R&D in 2020?,1,The total revenue for the period was $12.8 billion.
+70,2025-08-08 12:12:00,Compliance/Policy,What is the data retention policy for Legal?,1,Refunds are available within 30 days of purchase.
+71,2025-08-08 12:13:00,Technical Details,How is 2019 data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+72,2025-08-08 12:45:00,General Information,How do I get started with Operations?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+73,2025-08-08 14:22:00,Technical Details,What is the cloud storage capacity mentioned in Analytics report?,1,The cloud storage capacity at the end of the period was 245 TB.
+74,2025-08-08 15:01:00,Technical Details,What is the cloud storage capacity mentioned in Enterprise report?,1,The cloud storage capacity at the end of the period was 245 TB.
+75,2025-08-08 15:34:00,Technical Details,What is the cloud storage capacity mentioned in SSO report?,1,The cloud storage capacity at the end of the period was 245 TB.
+76,2025-08-08 16:52:00,General Information,What is the onboarding process for India?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+77,2025-08-08 18:46:00,Financial Data,What is the YoY growth for APAC?,1,The total revenue for the period was $12.8 billion.
+78,2025-08-10 08:53:00,General Information,What are the key features of the SSO plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+79,2025-08-10 09:39:00,General Information,Who do I contact for Q2 2025 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+80,2025-08-10 12:51:00,General Information,Who do I contact for Platform support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+81,2025-08-10 13:48:00,Technical Details,How is Data data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+82,2025-08-10 15:16:00,Compliance/Policy,What is the refund policy for Admin?,1,Refunds are available within 30 days of purchase.
+83,2025-08-10 17:03:00,General Information,What is included in the Ziff Davis package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+84,2025-08-10 17:37:00,Financial Data,What is the YoY growth for Partner?,1,The total revenue for the period was $12.8 billion.
+85,2025-08-11 09:07:00,Financial Data,What is the total revenue for Data?,0,No relevant answer found
+86,2025-08-11 10:59:00,Financial Data,What is the total revenue for Marketing?,1,The total revenue for the period was $12.8 billion.
+87,2025-08-11 11:32:00,Compliance/Policy,What is the refund policy for Support?,1,Refunds are available within 30 days of purchase.
+88,2025-08-11 13:10:00,Financial Data,What is the YoY growth for Chat?,1,The total revenue for the period was $12.8 billion.
+89,2025-08-11 14:40:00,Others,Is there a summary of Q3 2024?,1,The document is maintained by the knowledge management team.
+90,2025-08-11 17:15:00,Financial Data,What were the net earnings in 2020?,1,The total revenue for the period was $12.8 billion.
+91,2025-08-11 18:52:00,Financial Data,What is the total revenue for Analytics?,1,The total revenue for the period was $12.8 billion.
+92,2025-08-14 08:45:00,General Information,What is the onboarding process for Regional?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+93,2025-08-14 09:51:00,Technical Details,What is the uptime SLA for Analytics?,1,The cloud storage capacity at the end of the period was 245 TB.
+94,2025-08-14 09:58:00,General Information,What are the key features of the Chat plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+95,2025-08-14 11:48:00,Compliance/Policy,What is the security audit cycle for Cloud?,1,Refunds are available within 30 days of purchase.
+96,2025-08-14 11:52:00,General Information,Who do I contact for Enterprise support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+97,2025-08-14 14:42:00,General Information,Who do I contact for Team support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+98,2025-08-14 16:08:00,General Information,Who do I contact for SSO support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+99,2025-08-14 16:25:00,Financial Data,How much was spent on R&D in Analytics?,1,The total revenue for the period was $12.8 billion.
+100,2025-08-14 17:16:00,General Information,What is included in the SSO package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+101,2025-08-14 17:24:00,Others,Is there a summary of Search?,1,The document is maintained by the knowledge management team.
+102,2025-08-14 18:30:00,Technical Details,How is Enterprise data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+103,2025-08-15 08:40:00,General Information,What is included in the Pro package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+104,2025-08-15 10:42:00,General Information,What is the onboarding process for Security?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+105,2025-08-15 11:17:00,Technical Details,What is the cloud storage capacity mentioned in 2024 report?,1,The cloud storage capacity at the end of the period was 245 TB.
+106,2025-08-15 16:32:00,Compliance/Policy,Is Q4 2025 GDPR compliant?,1,Refunds are available within 30 days of purchase.
+107,2025-08-15 16:39:00,Financial Data,What was the operating profit in Partner?,1,The total revenue for the period was $12.8 billion.
+108,2025-08-15 18:58:00,General Information,Who do I contact for 2025 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+109,2025-08-17 08:31:00,Compliance/Policy,What is the refund policy for Cloud?,1,Refunds are available within 30 days of purchase.
+110,2025-08-17 10:11:00,General Information,How do I get started with Q3 2024?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+111,2025-08-17 11:54:00,General Information,What is included in the 2019 package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+112,2025-08-17 14:17:00,Technical Details,What is the uptime SLA for EMEA?,1,The cloud storage capacity at the end of the period was 245 TB.
+113,2025-08-17 14:17:00,Technical Details,What is the cloud storage capacity mentioned in Q1 2024 report?,1,The cloud storage capacity at the end of the period was 245 TB.
+114,2025-08-17 15:06:00,Others,When was Q2 2025 last updated?,1,The document is maintained by the knowledge management team.
+115,2025-08-17 15:48:00,Technical Details,How is Chat data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+116,2025-08-17 16:01:00,Financial Data,What is the total revenue for Q3 2024?,1,The total revenue for the period was $12.8 billion.
+117,2025-08-17 18:26:00,Financial Data,What is the total revenue for Q1 2025?,1,The total revenue for the period was $12.8 billion.
+118,2025-08-17 18:53:00,Others,When was Admin last updated?,1,The document is maintained by the knowledge management team.
+119,2025-08-18 08:29:00,General Information,What are the key features of the Q4 2025 plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+120,2025-08-18 08:37:00,Financial Data,What is the YoY growth for Q1 2023?,1,The total revenue for the period was $12.8 billion.
+121,2025-08-18 08:53:00,Others,Who owns the Analytics document?,1,The document is maintained by the knowledge management team.
+122,2025-08-18 08:54:00,General Information,What is the onboarding process for Q4 2024?,0,No relevant answer found
+123,2025-08-18 09:21:00,Compliance/Policy,What is the refund policy for Platform?,1,Refunds are available within 30 days of purchase.
+124,2025-08-18 09:43:00,General Information,What is included in the APAC package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+125,2025-08-18 10:38:00,Compliance/Policy,Is Search GDPR compliant?,1,Refunds are available within 30 days of purchase.
+126,2025-08-18 10:54:00,General Information,How do I get started with Ziff Davis?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+127,2025-08-18 11:06:00,Financial Data,What was the operating profit in 2023?,1,The total revenue for the period was $12.8 billion.
+128,2025-08-18 11:14:00,Technical Details,What are the system requirements for Q1 2025?,1,The cloud storage capacity at the end of the period was 245 TB.
+129,2025-08-18 11:25:00,General Information,How do I get started with 2025?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+130,2025-08-18 12:30:00,Compliance/Policy,What is the security audit cycle for Q1 2023?,1,Refunds are available within 30 days of purchase.
+131,2025-08-18 13:42:00,General Information,How do I get started with 2019?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+132,2025-08-18 13:58:00,General Information,What is the onboarding process for Admin?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+133,2025-08-18 14:53:00,General Information,What is included in the Search package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+134,2025-08-18 15:12:00,Financial Data,What were the net earnings in Analytics?,1,The total revenue for the period was $12.8 billion.
+135,2025-08-18 16:12:00,General Information,What is included in the 2025 package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+136,2025-08-18 16:23:00,Technical Details,What are the system requirements for Enterprise?,1,The cloud storage capacity at the end of the period was 245 TB.
+137,2025-08-18 16:24:00,Compliance/Policy,What is the leave policy for Support?,1,Refunds are available within 30 days of purchase.
+138,2025-08-18 16:52:00,General Information,What is the onboarding process for US?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+139,2025-08-18 17:11:00,Technical Details,What is the uptime SLA for Security?,1,The cloud storage capacity at the end of the period was 245 TB.
+140,2025-08-18 17:48:00,General Information,What is the onboarding process for Q1 2023?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+141,2025-08-19 08:35:00,Technical Details,How is Security data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+142,2025-08-19 09:25:00,Compliance/Policy,What is the leave policy for Vendor?,1,Refunds are available within 30 days of purchase.
+143,2025-08-19 12:25:00,Compliance/Policy,Is Pro GDPR compliant?,1,Refunds are available within 30 days of purchase.
+144,2025-08-19 12:57:00,Technical Details,What is the uptime SLA for Enterprise?,1,The cloud storage capacity at the end of the period was 245 TB.
+145,2025-08-19 13:30:00,General Information,What are the key features of the Enterprise plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+146,2025-08-19 16:04:00,Technical Details,What is the uptime SLA for Security?,1,The cloud storage capacity at the end of the period was 245 TB.
+147,2025-08-19 16:53:00,General Information,What are the key features of the Partner plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+148,2025-08-19 17:25:00,General Information,What is included in the US package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+149,2025-08-19 17:41:00,Compliance/Policy,What is the refund policy for US?,1,Refunds are available within 30 days of purchase.
+150,2025-08-22 08:36:00,General Information,What is included in the Marketing package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+151,2025-08-22 08:36:00,Compliance/Policy,Is Search GDPR compliant?,1,Refunds are available within 30 days of purchase.
+152,2025-08-22 10:38:00,General Information,Who do I contact for Chat support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+153,2025-08-22 12:04:00,General Information,What are the key features of the HR plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+154,2025-08-22 13:26:00,Technical Details,What is the cloud storage capacity mentioned in Mobile report?,1,The cloud storage capacity at the end of the period was 245 TB.
+155,2025-08-22 13:50:00,Technical Details,What is the uptime SLA for Partner?,1,The cloud storage capacity at the end of the period was 245 TB.
+156,2025-08-22 14:19:00,General Information,How do I get started with US?,0,No relevant answer found
+157,2025-08-22 14:33:00,Financial Data,How much was spent on R&D in SSO?,1,The total revenue for the period was $12.8 billion.
+158,2025-08-22 15:01:00,General Information,Who do I contact for 2019 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+159,2025-08-22 17:07:00,Technical Details,What are the system requirements for 2025?,1,The cloud storage capacity at the end of the period was 245 TB.
+160,2025-08-22 17:35:00,Others,Is there a summary of Q1 2024?,1,The document is maintained by the knowledge management team.
+161,2025-08-22 17:47:00,Others,Who owns the 2024 document?,1,The document is maintained by the knowledge management team.
+162,2025-08-22 17:50:00,Compliance/Policy,Is Cloud GDPR compliant?,1,Refunds are available within 30 days of purchase.
+163,2025-08-25 09:57:00,Financial Data,What was the operating profit in Admin?,1,The total revenue for the period was $12.8 billion.
+164,2025-08-25 13:21:00,Financial Data,What was the operating profit in 2021?,1,The total revenue for the period was $12.8 billion.
+165,2025-08-25 13:48:00,General Information,What are the key features of the US plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+166,2025-08-25 15:57:00,Financial Data,What were the net earnings in Q1 2023?,1,The total revenue for the period was $12.8 billion.
+167,2025-08-25 16:00:00,Others,Who owns the 2021 document?,1,The document is maintained by the knowledge management team.
+168,2025-08-25 16:02:00,Compliance/Policy,What is the security audit cycle for Q1 2023?,1,Refunds are available within 30 days of purchase.
+169,2025-08-25 16:28:00,Technical Details,What is the uptime SLA for Mobile?,1,The cloud storage capacity at the end of the period was 245 TB.
+170,2025-08-25 17:04:00,Financial Data,What is the YoY growth for Q4 2023?,1,The total revenue for the period was $12.8 billion.
+171,2025-08-25 18:05:00,General Information,What is the onboarding process for Starter?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+172,2025-08-25 18:23:00,General Information,Who do I contact for Q3 2025 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+173,2025-08-26 10:58:00,Financial Data,What is the total revenue for APAC?,1,The total revenue for the period was $12.8 billion.
+174,2025-08-26 11:09:00,General Information,What is the onboarding process for Legal?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+175,2025-08-26 13:23:00,Compliance/Policy,What is the refund policy for Support?,1,Refunds are available within 30 days of purchase.
+176,2025-08-26 13:32:00,Technical Details,What is the uptime SLA for HR?,1,The cloud storage capacity at the end of the period was 245 TB.
+177,2025-08-26 16:00:00,General Information,What is the onboarding process for Q3 2023?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+178,2025-08-26 17:06:00,Compliance/Policy,Is Q4 2025 GDPR compliant?,1,Refunds are available within 30 days of purchase.
+179,2025-08-26 17:09:00,General Information,What are the key features of the Security plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+180,2025-08-28 08:01:00,Financial Data,What is the YoY growth for Operations?,1,The total revenue for the period was $12.8 billion.
+181,2025-08-28 08:28:00,Technical Details,How is 2020 data encrypted?,0,No relevant answer found
+182,2025-08-28 09:08:00,Others,Where can I find the Chat document?,1,The document is maintained by the knowledge management team.
+183,2025-08-28 09:17:00,Financial Data,What is the YoY growth for 2025?,1,The total revenue for the period was $12.8 billion.
+184,2025-08-28 09:45:00,Financial Data,What is the total revenue for APAC?,1,The total revenue for the period was $12.8 billion.
+185,2025-08-28 09:49:00,Technical Details,Which API version does HR use?,1,The cloud storage capacity at the end of the period was 245 TB.
+186,2025-08-28 10:57:00,Financial Data,How much was spent on R&D in Q4 2025?,1,The total revenue for the period was $12.8 billion.
+187,2025-08-28 11:13:00,Others,Is there a summary of Premium?,1,The document is maintained by the knowledge management team.
+188,2025-08-28 11:52:00,General Information,Who do I contact for India support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+189,2025-08-28 12:26:00,Financial Data,What is the YoY growth for Pro?,0,No relevant answer found
+190,2025-08-28 12:35:00,Financial Data,How much was spent on R&D in Q4 2023?,1,The total revenue for the period was $12.8 billion.
+191,2025-08-28 12:36:00,Financial Data,How much was spent on R&D in 2023?,1,The total revenue for the period was $12.8 billion.
+192,2025-08-28 12:38:00,General Information,What is included in the Q4 2025 package?,0,No relevant answer found
+193,2025-08-28 12:48:00,General Information,What is the onboarding process for Enterprise?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+194,2025-08-28 12:55:00,General Information,How do I get started with Partner?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+195,2025-08-28 13:02:00,Technical Details,What is the uptime SLA for Regional?,1,The cloud storage capacity at the end of the period was 245 TB.
+196,2025-08-28 13:21:00,General Information,Who do I contact for Support support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+197,2025-08-28 13:51:00,General Information,Who do I contact for 2024 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+198,2025-08-28 13:59:00,Compliance/Policy,What is the security audit cycle for Pro?,1,Refunds are available within 30 days of purchase.
+199,2025-08-28 14:20:00,Technical Details,What are the system requirements for Q3 2023?,1,The cloud storage capacity at the end of the period was 245 TB.
+200,2025-08-28 14:35:00,Financial Data,What were the net earnings in APAC?,1,The total revenue for the period was $12.8 billion.
+201,2025-08-28 15:03:00,General Information,What is the onboarding process for 2022?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+202,2025-08-28 16:04:00,General Information,What is the onboarding process for 2024?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+203,2025-08-28 16:08:00,Technical Details,What are the system requirements for US?,1,The cloud storage capacity at the end of the period was 245 TB.
+204,2025-08-28 16:19:00,General Information,What are the key features of the Q2 2024 plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+205,2025-08-28 16:20:00,General Information,What is included in the Partner package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+206,2025-08-28 16:26:00,Technical Details,What is the uptime SLA for Team?,1,The cloud storage capacity at the end of the period was 245 TB.
+207,2025-08-28 17:05:00,Compliance/Policy,What is the leave policy for Sales?,1,Refunds are available within 30 days of purchase.
+208,2025-08-28 18:15:00,General Information,What is included in the Partner package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+209,2025-08-28 18:16:00,Financial Data,What was the operating profit in Platform?,1,The total revenue for the period was $12.8 billion.
+210,2025-08-29 08:23:00,General Information,How do I get started with Finance?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+211,2025-08-29 09:37:00,General Information,What are the key features of the Q3 2025 plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+212,2025-08-29 10:37:00,General Information,Who do I contact for 2022 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+213,2025-08-29 10:56:00,Compliance/Policy,What is the leave policy for Sales?,1,Refunds are available within 30 days of purchase.
+214,2025-08-29 10:57:00,Compliance/Policy,What is the leave policy for HR?,1,Refunds are available within 30 days of purchase.
+215,2025-08-29 11:14:00,Financial Data,What were the net earnings in SSO?,1,The total revenue for the period was $12.8 billion.
+216,2025-08-29 11:50:00,Financial Data,What was the operating profit in 2024?,1,The total revenue for the period was $12.8 billion.
+217,2025-08-29 12:29:00,Financial Data,How much was spent on R&D in Admin?,1,The total revenue for the period was $12.8 billion.
+218,2025-08-29 13:26:00,Others,Who owns the Pro document?,1,The document is maintained by the knowledge management team.
+219,2025-08-29 15:21:00,Technical Details,How is Vendor data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+220,2025-08-29 16:02:00,General Information,What are the key features of the India plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+221,2025-08-29 16:07:00,General Information,What is the onboarding process for Billing?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+222,2025-08-29 16:27:00,Financial Data,What were the net earnings in Mobile?,1,The total revenue for the period was $12.8 billion.
+223,2025-08-29 17:44:00,Financial Data,What were the net earnings in APAC?,1,The total revenue for the period was $12.8 billion.
+224,2025-08-29 18:40:00,Financial Data,What were the net earnings in Mobile?,1,The total revenue for the period was $12.8 billion.
+225,2025-08-30 08:10:00,General Information,What is included in the Sales package?,0,No relevant answer found
+226,2025-08-30 08:31:00,Others,Where can I find the Enterprise document?,1,The document is maintained by the knowledge management team.
+227,2025-08-30 13:14:00,Financial Data,What was the operating profit in APAC?,1,The total revenue for the period was $12.8 billion.
+228,2025-08-30 17:46:00,Financial Data,What were the net earnings in Search?,1,The total revenue for the period was $12.8 billion.
+229,2025-08-30 18:00:00,General Information,How do I get started with Q4 2023?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+230,2025-09-01 08:14:00,Financial Data,How much was spent on R&D in Security?,1,The total revenue for the period was $12.8 billion.
+231,2025-09-01 09:33:00,General Information,How do I get started with Q2 2025?,0,No relevant answer found
+232,2025-09-01 10:02:00,Others,Is there a summary of Basic?,1,The document is maintained by the knowledge management team.
+233,2025-09-01 11:28:00,Others,Where can I find the Marketing document?,1,The document is maintained by the knowledge management team.
+234,2025-09-01 12:15:00,Others,Is there a summary of Team?,1,The document is maintained by the knowledge management team.
+235,2025-09-01 12:57:00,General Information,What are the key features of the Regional plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+236,2025-09-01 13:20:00,Compliance/Policy,What is the security audit cycle for 2019?,1,Refunds are available within 30 days of purchase.
+237,2025-09-01 14:41:00,Compliance/Policy,What is the leave policy for Sales?,1,Refunds are available within 30 days of purchase.
+238,2025-09-01 15:32:00,General Information,What are the key features of the Analytics plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+239,2025-09-01 16:02:00,General Information,What are the key features of the Operations plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+240,2025-09-01 16:12:00,Financial Data,How much was spent on R&D in 2025?,1,The total revenue for the period was $12.8 billion.
+241,2025-09-02 09:12:00,Technical Details,What are the system requirements for Q3 2024?,1,The cloud storage capacity at the end of the period was 245 TB.
+242,2025-09-02 11:43:00,Financial Data,What was the operating profit in 2023?,1,The total revenue for the period was $12.8 billion.
+243,2025-09-02 13:01:00,General Information,What is included in the Chat package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+244,2025-09-02 17:11:00,General Information,Who do I contact for Basic support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+245,2025-09-02 17:19:00,General Information,How do I get started with Ziff Davis?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+246,2025-09-02 17:27:00,General Information,How do I get started with Enterprise?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+247,2025-09-02 17:30:00,Technical Details,How is Premium data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+248,2025-09-03 09:42:00,Financial Data,What was the operating profit in Cloud?,1,The total revenue for the period was $12.8 billion.
+249,2025-09-03 14:52:00,General Information,How do I get started with Sales?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+250,2025-09-03 15:01:00,General Information,What is included in the Q1 2025 package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+251,2025-09-03 18:36:00,Others,When was APAC last updated?,1,The document is maintained by the knowledge management team.
+252,2025-09-03 18:39:00,General Information,What are the key features of the Q4 2024 plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+253,2025-09-04 11:44:00,General Information,What are the key features of the Sales plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+254,2025-09-04 13:04:00,Financial Data,What were the net earnings in Support?,1,The total revenue for the period was $12.8 billion.
+255,2025-09-04 15:38:00,Compliance/Policy,What is the security audit cycle for 2019?,1,Refunds are available within 30 days of purchase.
+256,2025-09-04 15:53:00,Technical Details,What is the cloud storage capacity mentioned in Q2 2023 report?,1,The cloud storage capacity at the end of the period was 245 TB.
+257,2025-09-04 16:51:00,General Information,What are the key features of the Platform plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+258,2025-09-04 16:54:00,Financial Data,What is the YoY growth for Starter?,1,The total revenue for the period was $12.8 billion.
+259,2025-09-04 17:21:00,General Information,What is the onboarding process for Support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+260,2025-09-04 17:36:00,General Information,How do I get started with Analytics?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+261,2025-09-04 17:57:00,Technical Details,What is the uptime SLA for Security?,1,The cloud storage capacity at the end of the period was 245 TB.
+262,2025-09-04 18:26:00,Compliance/Policy,Is 2022 GDPR compliant?,1,Refunds are available within 30 days of purchase.
+263,2025-09-04 18:35:00,General Information,Who do I contact for Analytics support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+264,2025-09-04 18:47:00,General Information,What are the key features of the 2022 plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+265,2025-09-08 12:43:00,General Information,How do I get started with Platform?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+266,2025-09-08 14:38:00,General Information,What is the onboarding process for APAC?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+267,2025-09-08 15:10:00,Financial Data,How much was spent on R&D in Admin?,1,The total revenue for the period was $12.8 billion.
+268,2025-09-08 15:38:00,Compliance/Policy,What is the data retention policy for SSO?,1,Refunds are available within 30 days of purchase.
+269,2025-09-08 16:16:00,General Information,How do I get started with Vendor?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+270,2025-09-08 16:19:00,Financial Data,What is the YoY growth for Analytics?,1,The total revenue for the period was $12.8 billion.
+271,2025-09-08 17:48:00,Financial Data,What were the net earnings in Vendor?,1,The total revenue for the period was $12.8 billion.
+272,2025-09-10 08:16:00,General Information,What is included in the Ziff Davis package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+273,2025-09-10 08:19:00,General Information,How do I get started with SSO?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+274,2025-09-10 08:38:00,Financial Data,What were the net earnings in Operations?,1,The total revenue for the period was $12.8 billion.
+275,2025-09-10 08:50:00,General Information,What is included in the 2021 package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+276,2025-09-10 11:44:00,General Information,What is included in the Chat package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+277,2025-09-10 12:19:00,General Information,What is the onboarding process for Data?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+278,2025-09-10 13:14:00,Financial Data,What is the YoY growth for Marketing?,1,The total revenue for the period was $12.8 billion.
+279,2025-09-10 13:44:00,General Information,Who do I contact for 2023 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+280,2025-09-10 13:55:00,Technical Details,What is the uptime SLA for Sales?,0,No relevant answer found
+281,2025-09-10 14:03:00,General Information,What is the onboarding process for Q1 2024?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+282,2025-09-10 14:55:00,Others,When was Q4 2024 last updated?,1,The document is maintained by the knowledge management team.
+283,2025-09-10 15:29:00,General Information,How do I get started with Finance?,0,No relevant answer found
+284,2025-09-10 15:59:00,General Information,What is the onboarding process for Finance?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+285,2025-09-10 16:28:00,General Information,Who do I contact for Q4 2024 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+286,2025-09-10 16:47:00,General Information,What are the key features of the Starter plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+287,2025-09-10 18:07:00,General Information,What is the onboarding process for Vendor?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+288,2025-09-10 18:09:00,General Information,What is the onboarding process for Admin?,0,No relevant answer found
+289,2025-09-11 08:13:00,General Information,How do I get started with 2022?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+290,2025-09-11 09:21:00,Others,Who owns the Marketing document?,1,The document is maintained by the knowledge management team.
+291,2025-09-11 09:42:00,Others,When was Q4 2024 last updated?,1,The document is maintained by the knowledge management team.
+292,2025-09-11 10:49:00,Others,Who owns the 2024 document?,1,The document is maintained by the knowledge management team.
+293,2025-09-11 12:37:00,Technical Details,Which API version does Support use?,1,The cloud storage capacity at the end of the period was 245 TB.
+294,2025-09-11 13:21:00,General Information,How do I get started with Q4 2025?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+295,2025-09-11 14:00:00,Technical Details,What are the system requirements for Starter?,1,The cloud storage capacity at the end of the period was 245 TB.
+296,2025-09-11 18:04:00,Financial Data,What is the YoY growth for Regional?,1,The total revenue for the period was $12.8 billion.
+297,2025-09-12 10:48:00,Financial Data,How much was spent on R&D in Q4 2024?,1,The total revenue for the period was $12.8 billion.
+298,2025-09-12 11:01:00,General Information,What is included in the Q4 2023 package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+299,2025-09-12 12:26:00,Others,Who owns the Q4 2024 document?,1,The document is maintained by the knowledge management team.
+300,2025-09-12 16:47:00,Compliance/Policy,What is the refund policy for Admin?,1,Refunds are available within 30 days of purchase.
+301,2025-09-12 17:21:00,Technical Details,What is the uptime SLA for EMEA?,1,The cloud storage capacity at the end of the period was 245 TB.
+302,2025-09-12 17:41:00,General Information,What are the key features of the 2020 plan?,0,No relevant answer found
+303,2025-09-12 18:44:00,Financial Data,What was the operating profit in Q1 2025?,1,The total revenue for the period was $12.8 billion.
+304,2025-09-14 09:12:00,General Information,Who do I contact for 2020 support?,0,No relevant answer found
+305,2025-09-14 12:24:00,Compliance/Policy,What is the security audit cycle for 2025?,1,Refunds are available within 30 days of purchase.
+306,2025-09-14 13:19:00,General Information,How do I get started with HR?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+307,2025-09-14 14:14:00,Others,Is there a summary of Premium?,1,The document is maintained by the knowledge management team.
+308,2025-09-14 14:59:00,General Information,What is included in the Starter package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+309,2025-09-14 16:29:00,General Information,What is included in the Billing package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+310,2025-09-15 10:43:00,Others,Where can I find the APAC document?,1,The document is maintained by the knowledge management team.
+311,2025-09-15 10:46:00,General Information,Who do I contact for Q2 2024 support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+312,2025-09-15 11:39:00,Financial Data,What is the total revenue for 2021?,1,The total revenue for the period was $12.8 billion.
+313,2025-09-15 11:45:00,General Information,What are the key features of the Partner plan?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+314,2025-09-15 12:47:00,Financial Data,What is the YoY growth for Sales?,1,The total revenue for the period was $12.8 billion.
+315,2025-09-15 13:00:00,Technical Details,How is 2025 data encrypted?,1,The cloud storage capacity at the end of the period was 245 TB.
+316,2025-09-15 14:24:00,General Information,How do I get started with Admin?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+317,2025-09-15 15:31:00,Technical Details,Which API version does Search use?,1,The cloud storage capacity at the end of the period was 245 TB.
+318,2025-09-15 17:02:00,Financial Data,How much was spent on R&D in Partner?,1,The total revenue for the period was $12.8 billion.
+319,2025-09-15 17:15:00,Financial Data,What were the net earnings in Q1 2023?,1,The total revenue for the period was $12.8 billion.
+320,2025-09-15 18:14:00,Technical Details,What is the cloud storage capacity mentioned in Q1 2023 report?,1,The cloud storage capacity at the end of the period was 245 TB.
+321,2025-09-15 18:19:00,Financial Data,What were the net earnings in Analytics?,1,The total revenue for the period was $12.8 billion.
+322,2025-09-16 09:37:00,General Information,Who do I contact for US support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+323,2025-09-16 10:01:00,Technical Details,What is the cloud storage capacity mentioned in Q2 2025 report?,1,The cloud storage capacity at the end of the period was 245 TB.
+324,2025-09-16 13:27:00,General Information,What is the onboarding process for SSO?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+325,2025-09-16 13:38:00,Financial Data,What was the operating profit in Q2 2024?,1,The total revenue for the period was $12.8 billion.
+326,2025-09-16 16:21:00,General Information,What is included in the Search package?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+327,2025-09-16 16:31:00,Others,Who owns the Partner document?,1,The document is maintained by the knowledge management team.
+328,2025-09-16 16:42:00,General Information,What is the onboarding process for Enterprise?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+329,2025-09-16 18:18:00,General Information,Who do I contact for Sales support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+330,2025-09-17 08:53:00,General Information,Who do I contact for Analytics support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+331,2025-09-17 09:38:00,Financial Data,What is the YoY growth for Regional?,0,No relevant answer found
+332,2025-09-17 09:40:00,Financial Data,What was the operating profit in Billing?,1,The total revenue for the period was $12.8 billion.
+333,2025-09-17 11:03:00,Financial Data,What was the operating profit in Q2 2025?,1,The total revenue for the period was $12.8 billion.
+334,2025-09-17 12:27:00,General Information,Who do I contact for Billing support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+335,2025-09-17 12:27:00,Compliance/Policy,What is the leave policy for Vendor?,1,Refunds are available within 30 days of purchase.
+336,2025-09-17 12:48:00,Financial Data,What is the total revenue for Marketing?,1,The total revenue for the period was $12.8 billion.
+337,2025-09-17 13:50:00,General Information,Who do I contact for Chat support?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+338,2025-09-17 15:07:00,Others,Who owns the Support document?,1,The document is maintained by the knowledge management team.
+339,2025-09-17 16:14:00,General Information,How do I get started with 2020?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+340,2025-09-17 16:32:00,General Information,What is included in the Admin package?,0,No relevant answer found
+341,2025-09-17 17:47:00,Compliance/Policy,What is the refund policy for Platform?,1,Refunds are available within 30 days of purchase.
+342,2025-09-17 18:47:00,General Information,How do I get started with Finance?,1,"The enterprise plan includes advanced analytics, SSO, and priority support."
+343,2025-09-18 08:27:00,Compliance/Policy,What is the security audit cycle for Q2 2025?,1,Refunds are available within 30 days of purchase.
+344,2025-09-16 09:18:00,Technical Details,What is the refund policy?,1,Refunds are available within 30 days of purchase...
+345,2025-09-17 11:21:00,Technical Details,What are the key features of the enterprise plan?,1,"The enterprise plan includes advanced analytics, SSO and priority support..."
+346,2025-09-17 16:47:00,General Information,How many customers are in the 0-12 month churn group?,1,There are 892 customers in the 0-12 month churn group...
+347,2025-09-18 12:15:00,Financial Data,What is the cloud storage capacity mentioned in Ziff Davis annual report?,1,The cloud storage capacity at the end of the period was 245 TB...
+348,2025-09-18 14:32:00,Technical Details,What is the total revenue for 2024?,1,The total revenue for 2024 is $12.8 billion...
